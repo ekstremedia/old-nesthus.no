@@ -1,0 +1,23 @@
+{
+    "name": "october/demo-theme",
+    "type": "october-theme",
+    "description": "Nesthus.no theme",
+    "keywords": ["october", "cms", "demo", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Terje Nesthus",
+            "email": "terjen@gmail.com",
+            "role": "Admin"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

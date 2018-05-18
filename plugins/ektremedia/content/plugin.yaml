@@ -1,0 +1,6 @@
+plugin:
+    name: 'ektremedia.content::lang.plugin.name'
+    description: 'ektremedia.content::lang.plugin.description'
+    author: Ektremedia
+    icon: oc-icon-adjust
+    homepage: ''
