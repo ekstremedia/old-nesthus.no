@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TweenMax,TimelineMax, CSSPlugin, ScrollToPlugin, Draggable } from "gsap/all"; 
+import { TweenMax,TimelineMax, CSSPlugin, ScrollToPlugin, Draggable, Elastic } from "gsap/all"; 
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ export class AppComponent {
 
   ngOnInit() {
     let tl = this.that = new TimelineMax({repeat:-1});
-    tl.to(".h", 1, {x:100});
+    tl.to(".h", 7, {x:100, ease: Elastic.easeOut.config(1, 0.3)});
     tl.play();
   }
 }
